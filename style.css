@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.envato img{
+    margin: 10px 13px;
+}
+.buybtn{
+    margin:9px 29px;
+}
+.buybtn button{
+    border: none;
+    padding: 9px;
+    color: white;
+    cursor: pointer;
+    background-color: #88C354;
+
+}
+.iconheader{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.logo1 img{
+    margin: 30px 70px;
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 50px;
+}
+ .dropdown .other{
+   color: #88C354;
+}
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: inherit;
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+    margin: 0;
+    height: 80px;
+    background-color: white;
+  }
+  
+   .dropdown:hover .dropbtn {
+    background-color: #88C354;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .coverpic{
+      width: 100%;
+      height: 300px;
+  }
+footer{
+    background-color: #171C26;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+.fristside img{
+    margin: 30px 40px;
+}
+.fristside{
+    position: absolute;
+}
+.fristside p{
+    color: rgba(255, 255, 255, 0.678);
+    margin-left: 50px;
+    padding-top: 0;
+    font-size: 15px;
+}
+.footerpart{
+    display: flex;
+}
+.second{
+    margin-left: 350px;
+    position: absolute;
+}
+.second h1{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.second p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.second p , small{
+    color: rgba(255, 255, 255, 0.678);
+}
+.second small{
+    font-size: 10px;
+}
+.second p:hover{
+    color: #88C354;
+}
+.third{
+    margin-left: 700px;
+    position: absolute;  
+}
+.third h1{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 60px;
+    padding-bottom: 10px; 
+}
+.third p{
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 12px;
+    padding-top: 12px;
+    
+
+
+}
+.third p:hover{
+    color: #88C354;
+}
+.fa-play{
+    padding-left: 10px;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+ .copyright p {
+    margin-top:350px ;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.678);
+    margin-left: 400px;
+}
+.copyright span{
+    color: #88C354;
+}
+.fourth{
+    margin-left: 900px;
+    position: absolute; 
+}
+.fourth .box{
+    margin-top: 55px;
+    width: 250px;
+    height: 250px;
+    background: #2b303b;
+    padding-left: 20px;
+
+}
+.fourth .box p{
+    padding-top: 30px;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.fourth input{
+    padding: 6px;
+    margin-top: 8px;
+
+}
+.fourth button{
+    padding: 7px 64px;
+    color: white;
+    font-weight: bold;
+    background-color: #88C354;
+    border: none;
+    margin-left: 1px;
+    margin-top: 8px;
+}
+.good{
+    height: 400px;
+    width: 100%;
+    background: url("images/city.jpg");
+}
+.good h4{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.good p{
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.good a{
+        background: inherit;
+        border: 2px solid #fff;
+        padding: 20px 40px;
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 500px;
+        margin-top: 30px;
+}
+.good a:hover {
+background: white;
+color: #88C354;   
+transition: all .2s ease-out 0s;
+}
+.width80{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+.frist{
+    border: 1px solid #F0F0F0;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 20px;
+}
+.frist h4{
+    padding: 15px;
+    font-weight: bold;
+}
+.frist p{
+    color:gray ;
+    padding-bottom: 20px;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.frist a{
+    text-decoration: none;
+    padding: 10px 17px;
+    background-color:#88C354;
+    color: #fff;
+}
+.df{
+    display: flex;
+}
+.hover-images{
+    height: 224px;
+    width: 337px;
+    background: url("images/hover\ img.jpg");
+    margin: auto;
+}
+.hover-text{
+    height: 224px;
+    width: 337px;
+    background: rgba(0, 0, 0, 0.48);
+    display: none;
+
+}
+.hover-images:hover .hover-text{
+    display: block;
+}
+.reset{
+    background: red;
+    border: none;
+    padding: 3px;
+    margin-top: 60%;
+    color: white;
+    transition: 1s;
+}
+.hover-images:hover .reset{
+    display: none;
+}
+.fa-link{
+    background-color: #88C354;
+    color: white;
+    padding: 12px;
+    margin-top: 30%;
+    margin-left: 45%;
+    font-size: 60px;
+    border-radius: 3px;
+}
+.cover{
+    background: url("images/cover.jpg");
+    height: 300px;
+    margin-bottom: 20px;
+}
+.cover h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 100px;
+
+}
